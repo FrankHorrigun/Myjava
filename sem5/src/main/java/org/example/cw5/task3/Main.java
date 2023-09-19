@@ -28,8 +28,8 @@ public class Main {
         mapNumbers.put('D', 500);
         mapNumbers.put('M', 1000);
         System.out.println("mapNumbers = " + mapNumbers);
-        String str = "LVIII";
-        String str1 = "MCMXCIV";
+        String str1 = "LVIII";
+        String str2 = "MCMXCIV";
         int res = numberFromRome(mapNumbers, str1);
         System.out.println(str1 + " = " + res);
     }
